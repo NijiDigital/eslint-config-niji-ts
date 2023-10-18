@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-niji-ts",
+  "version": "0.0.1",
+  "description": "Enforced ESLint rules for TypeScript by Niji",
+  "main": "index.js",
+  "keywords": [
+    "ESLint",
+    "TypeScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NijiDigital/eslint-config-niji-ts.git"
+  },
+  "homepage": "https://github.com/NijiDigital/eslint-config-niji-ts#readme",
+  "author": "Olivier Penhoat <openhoat@gmail.com> (http://headwood.net/)",
+  "contributors": [
+    "Mathis Roussat (https://github.com/nophinx)"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/NijiDigital/eslint-config-niji-ts/blob/main/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "^16.0.0 || >= 18.0.0"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "npm": "9.8.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "prettier": ">= 3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "6.8.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "eslint-plugin-sonarjs": "0.21.0",
+    "eslint-plugin-sort-class-members": "1.19.0",
+    "eslint-plugin-sort-keys-shorthand": "2.2.0"
+  }
+}
