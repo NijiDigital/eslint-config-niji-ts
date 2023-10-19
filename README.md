@@ -16,6 +16,30 @@ with yarn:
 yarn add -D eslint-config-niji-ts
 ```
 
+### Getting started
+
+In your `.eslintrc.json`, simply extend the Niji ESLint config:
+
+```json
+{
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["niji-ts"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "createDefaultProgram": true,
+    "ecmaVersion": 12,
+    "project": ["./tsconfig.eslint.json"],
+    "sourceType": "module",
+    "tsconfigRootDir": "."
+  },
+  "root": true
+}
+```
+
 ### Enabled rules
 
 All ESLint rules are based on the following dependencies:
