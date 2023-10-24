@@ -40,6 +40,7 @@
     "eslint-plugin-simple-import-sort": "10.0.0",
     "eslint-plugin-sonarjs": "0.21.0",
     "eslint-plugin-sort-class-members": "1.19.0",
-    "eslint-plugin-sort-keys-shorthand": "2.2.0"
+    "eslint-plugin-sort-keys-shorthand": "2.2.0",
+    "eslint-plugin-unicorn": "48.0.1"
   }
 }
