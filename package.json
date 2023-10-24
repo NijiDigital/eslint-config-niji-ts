@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-niji-ts",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Enforced ESLint rules for TypeScript by Niji",
   "main": "index.js",
   "keywords": [
