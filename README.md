@@ -45,12 +45,13 @@ In your `.eslintrc.json`, simply extend the Niji ESLint config:
 All ESLint rules are based on the following dependencies:
 
 - eslint:recommended
-- plugin:@typescript-eslint/eslint-recommended
-- plugin:@typescript-eslint/recommended-requiring-type-checking
-- plugin:@typescript-eslint/recommended-type-checked
-- plugin:@typescript-eslint/stylistic-type-checked
-- plugin:prettier/recommended
-- plugin:sonarjs/recommended
+- @typescript-eslint/eslint-recommended
+- @typescript-eslint/recommended-requiring-type-checking
+- @typescript-eslint/recommended-type-checked
+- @typescript-eslint/stylistic-type-checked
+- prettier/recommended
+- sonarjs/recommended
+- unicorn/recommended
 
 List of the enabled custom rules:
 
@@ -119,7 +120,20 @@ List of the enabled custom rules:
 - sonarjs/no-inverted-boolean-check
 - sort-keys-shorthand/sort-keys-shorthand
 
-All these rules are proposed to reach a maximum level of quality.
+List of the disabled custom rules:
+
+- @typescript-eslint/explicit-member-accessibility
+- @typescript-eslint/no-var-requires
+- @typescript-eslint/prefer-readonly-parameter-types
+- @typescript-eslint/promise-function-async
+- @typescript-eslint/strict-boolean-expressions
+- unicorn/filename-case
+- unicorn/no-array-reduce
+- unicorn/prefer-module
+- unicorn/prevent-abbreviations
+
+All these rules are proposed to reach a maximum level of quality without compromise efficiency.
+
 Feel free to customize your configuration to match your needs.
 
 Enjoy!

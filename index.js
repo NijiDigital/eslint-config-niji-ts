@@ -1,7 +1,8 @@
 module.exports = {
   $schema: 'https://json.schemastore.org/eslintrc.json',
   env: {
-    es2021: true,
+    es2024: true,
+    jest: true,
     node: true,
   },
   extends: [
@@ -12,6 +13,7 @@ module.exports = {
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:prettier/recommended',
     'plugin:sonarjs/recommended',
+    'plugin:unicorn/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -120,6 +122,10 @@ module.exports = {
         shorthand: 'first',
       },
     ],
+    'unicorn/filename-case': 'off',
+    'unicorn/no-array-reduce': 'off',
+    'unicorn/prefer-module': 'off',
+    'unicorn/prevent-abbreviations': 'off',
   },
   plugins: [
     '@typescript-eslint',
